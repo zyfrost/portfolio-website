@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <section class="hero">
+      <img
+        id="toggleTheme"
+        class="theme-btn"
+        src="assets/theme_light.png"
+        alt="theme icon"
+      />
+      <div class="hero-pic">
+        <div class="inner-circle"></div>
+        <img
+          src="assets/pfp.jpeg"
+          alt="Mason Wilkes"
+        />
+      </div>
+      <div class="hero-info">
+        <h1>Tanmay Murkute</h1>
+        <h2>Software Developer (Java)</h2>
+        <div class="logo-container">
+          <a href="https://github.com/zyfrost"
+            ><img src="assets/github_light.png" alt="github logo"
+          /></a>
+          <a href="https://www.linkedin.com/in/tanmay-murkute/"
+            ><img src="assets/linkedin_light.png" alt="linkedin logo"
+          /></a>
+          <a href="mailto:murkutetanmay@gmail.com"
+            ><img src="assets/email_light.png" alt="email logo"
+          /></a>
+         
+        </div>
+      </div>
+    </section>
+    <!-- <section class="experience">
+      <h2><b>3</b><br />Years<br />Frontend</h2>
+      <h2><b>5</b><br />Years<br />B.Sc. & M.Sc.</h2>
+      <h2><b>4</b><br />Satisfied<br />Employers</h2>
+    </section> -->
+    <section class="cta">
+      <a href="assets/example-cv.pdf" download>
+        <button class="btn download-btn">Download CV</button>
+      </a>
+      <a href="mailto:murkutetanmay@gmail.com"
+        ><button class="btn contact-btn">Contact Me</button></a
+      >
+    </section>
+    <section class="portfolio-skills">
+      <div class="btn-bg">
+        <button class="btn-2 active-btn" id="portfolio-btn">Portfolio</button>
+        <button class="btn-2" id="skills-btn">Skills</button>
+      </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+      <div class="wrapper project-wrapper">
+        <a href="https://zyfrost-fighting-game.netlify.app/"
+          ><img src="assets/project-1.jpg" alt="Project 1"
+        /></a>
+      </div>
+      <div class="wrapper project-wrapper">
+        <a href="https://github.com/zyfrost/full-stack-twitter-clone"
+          ><img src="assets/project-2.jpg" alt="Project 2"
+        /></a>
+      </div>
+      <div class="wrapper project-wrapper">
+        <a href="https://github.com/sagarmishra1103/Sign-Mate-App-Team-Empyrean"
+          ><img src="assets/project-3.png" alt="Project 3"
+        /></a>
+      </div>
+      <div class="wrapper project-wrapper">
+        <a href="assets\IEEE_Research_Paper.pdf"
+          ><img src="assets/project-4.png" alt="Project 4"
+        /></a>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="wrapper">
+        <h3>Frontend</h3>
+        <article class="frontend-skills">
+          <p>Java</p>
+          <p>JavaScript</p>
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>Bootstrap</p>
+          <p>TypeScript</p>
+          <p>React</p>
+          <p>Angular</p>
+          <p>Material UI</p>
+        </article>
+      </div>
+      <div class="wrapper">
+        <h3>Backend</h3>
+        <article class="backend-skills">
+          <p>Node.js</p>
+          <p>Express.js</p>
+          <p>APIs</p>
+          <p>Database CRUD</p>
+          <p>Git</p>
+          <p>GraphQL</p>
+          <p>Web Servers</p>
+        </article>
+      </div>
+    </section>
+    <footer>
+      <p>&copy Tanmay Murkute 2024</p>
+    </footer>
+  </body>
+</html>
